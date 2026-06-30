@@ -22,7 +22,7 @@ visual de batida.
 ## 🖼️ Esquemático
 
 ![Circuito Simulador](circuit_images/image_simulador.png)
-![Circuito Real](circuit_images/IMG_9091.jpg)
+![Circuito Real](circuit_images/IMG_9104.jpg)
 
 ---
 
