@@ -5,7 +5,9 @@ Metrônomo com BPM ajustável por potenciômetro (40–240), buzzer marcando o t
 compassos 2/4, 3/4 e 4/4, e display OLED mostrando o BPM atual e um indicador
 visual de batida.
 
-## 🔌 Pinout
+---
+
+## 🔌 Pinagem
 
 | Componente     | Pino Arduino       |
 |----------------|---------------------|
@@ -15,10 +17,21 @@ visual de batida.
 | OLED SDA       | A4 (I2C)            |
 | OLED SCL       | A5 (I2C)            |
 
+---
+
+## 🖼️ Esquemático
+
+![Circuito Simulador](circuit_images/image_simulador.png)
+![Circuito Real](circuit_images/IMG_9091.jpg)
+
+---
+
 ## 📦 Bibliotecas
 
 - `Adafruit SSD1306`
 - `Adafruit GFX`
+
+---
 
 ## ⚙️ Como funciona
 
@@ -34,15 +47,6 @@ visual de batida.
 - A OLED atualiza a ~20 FPS (cap de 50 ms) mostrando o BPM em fonte grande,
   o compasso atual e uma fileira de bolinhas indicando qual tempo acabou
   de soar.
-
-## ✅ Progresso
-
-- [x] Leitura suavizada do potenciômetro (40–240 BPM)
-- [x] Timing não-bloqueante com `millis()` e correção de deriva
-- [x] Acento sonoro no primeiro tempo do compasso
-- [x] Botão com debounce alternando 2/4, 3/4, 4/4
-- [x] Layout OLED com BPM grande + indicador de beat
-- [ ] Teste físico na bancada
 
 ## 📁 Estrutura
 
